@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: var(--background);
+}
+
+.instagramContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 60%;
+  height: 100vh;
+}
+
+.instagramPhone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 50%;
+}
+
+.instagramPhone img {
+  width: auto;
+  height: 45rem;
+}
