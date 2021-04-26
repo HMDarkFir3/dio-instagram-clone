@@ -30,3 +30,50 @@ body {
   width: auto;
   height: 45rem;
 }
+
+.instagramContinue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 50%;
+  min-height: 34rem;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  padding: 1.3rem 0;
+
+  background-color: var(--white);
+  border: 1px solid var(--gray-light);
+}
+
+.group:nth-child(1) {
+  min-height: 19rem;
+}
+
+.instagramLogo {
+  width: auto;
+  height: 3rem;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileContainer img {
+  width: 6rem;
+  height: 6rem;
+
+  border-radius: 3rem;
+  overflow: hidden;
+}
