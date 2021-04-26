@@ -45,7 +45,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 
   width: 100%;
 
@@ -76,4 +76,87 @@ body {
 
   border-radius: 3rem;
   overflow: hidden;
+}
+
+.instagramLogin {
+  padding: 0.5rem;
+
+  color: var(--white);
+
+  background-color: var(--blue);
+  border-radius: 0.25rem;
+}
+
+.instagramLogout {
+  margin-top: 1rem;
+
+  color: var(--blue);
+}
+
+.notAccount {
+  color: var(--gray-dark);
+}
+
+.linkBlue {
+  color: var(--blue);
+}
+
+.getApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+
+  padding: 1.3rem 0;
+}
+
+.buttonArea {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.button {
+  width: 10rem;
+  height: 3rem;
+
+  background-size: cover;
+}
+
+.button:nth-child(1) {
+  background-image: url("/src/assets/images/googleplay-button.png");
+}
+
+.button:nth-child(2) {
+  background-image: url("/src/assets/images/apple-button.png");
+}
+
+@media (max-width: 1024px) {
+  .instagramContainer {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .instagramContainer {
+    width: 90%;
+  }
+
+  .instagramPhone {
+    display: none;
+  }
+
+  .instagramContinue {
+    width: 100%;
+  }
+
+  .group {
+    border: 1px solid transparent;
+  }
 }
